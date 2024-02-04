@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog;
+namespace App\Examples\Blog;
 
 use GraphQL\Error\InvariantViolation;
-use GraphQL\Examples\Blog\Type\CommentType;
-use GraphQL\Examples\Blog\Type\Enum\ContentFormatType;
-use GraphQL\Examples\Blog\Type\Enum\ImageSizeType;
-use GraphQL\Examples\Blog\Type\Enum\StoryAffordancesType;
-use GraphQL\Examples\Blog\Type\ImageType;
-use GraphQL\Examples\Blog\Type\NodeType;
-use GraphQL\Examples\Blog\Type\Scalar\EmailType;
-use GraphQL\Examples\Blog\Type\Scalar\UrlType;
-use GraphQL\Examples\Blog\Type\SearchResultType;
-use GraphQL\Examples\Blog\Type\StoryType;
-use GraphQL\Examples\Blog\Type\UserType;
+use App\Examples\Blog\Type\CommentType;
+use App\Examples\Blog\Type\Enum\ContentFormatType;
+use App\Examples\Blog\Type\Enum\ImageSizeType;
+use App\Examples\Blog\Type\Enum\StoryAffordancesType;
+use App\Examples\Blog\Type\ImageType;
+use App\Examples\Blog\Type\NodeType;
+use App\Examples\Blog\Type\Scalar\EmailType;
+use App\Examples\Blog\Type\Scalar\UrlType;
+use App\Examples\Blog\Type\SearchResultType;
+use App\Examples\Blog\Type\StoryType;
+use App\Examples\Blog\Type\UserType;
 use GraphQL\Type\Definition\NamedType;
 use GraphQL\Type\Definition\ScalarType;
 use GraphQL\Type\Definition\Type;

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog\Type;
+namespace App\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\AppContext;
-use GraphQL\Examples\Blog\Data\Image;
-use GraphQL\Examples\Blog\Types;
+use App\Examples\Blog\AppContext;
+use App\Examples\Blog\Data\Image;
+use App\Examples\Blog\Types;
 use GraphQL\Type\Definition\NonNull;
 use GraphQL\Type\Definition\ObjectType;
 use GraphQL\Type\Definition\ResolveInfo;

@@ -8,10 +8,10 @@
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-use GraphQL\Examples\Blog\AppContext;
-use GraphQL\Examples\Blog\Data\DataSource;
-use GraphQL\Examples\Blog\Type\QueryType;
-use GraphQL\Examples\Blog\Types;
+use App\Examples\Blog\AppContext;
+use App\Examples\Blog\Data\DataSource;
+use App\Examples\Blog\Type\QueryType;
+use App\Examples\Blog\Types;
 use GraphQL\Server\StandardServer;
 use GraphQL\Type\Definition\Type;
 use GraphQL\Type\Schema;

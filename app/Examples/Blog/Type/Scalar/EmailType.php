@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog\Type\Scalar;
+namespace App\Examples\Blog\Type\Scalar;
 
 use GraphQL\Error\Error;
 use GraphQL\Error\SerializationError;

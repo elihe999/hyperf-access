@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog\Type\Field;
+namespace App\Examples\Blog\Type\Field;
 
 use GraphQL\Error\InvariantViolation;
-use GraphQL\Examples\Blog\Type\Enum\ContentFormatType;
-use GraphQL\Examples\Blog\Types;
+use App\Examples\Blog\Type\Enum\ContentFormatType;
+use App\Examples\Blog\Types;
 
 class HtmlField
 {

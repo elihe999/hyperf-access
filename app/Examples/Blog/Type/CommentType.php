@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog\Type;
+namespace App\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\Data\Comment;
-use GraphQL\Examples\Blog\Data\DataSource;
-use GraphQL\Examples\Blog\Data\User;
-use GraphQL\Examples\Blog\Type\Field\HtmlField;
-use GraphQL\Examples\Blog\Types;
+use App\Examples\Blog\Data\Comment;
+use App\Examples\Blog\Data\DataSource;
+use App\Examples\Blog\Data\User;
+use App\Examples\Blog\Type\Field\HtmlField;
+use App\Examples\Blog\Types;
 use GraphQL\Type\Definition\ListOfType;
 use GraphQL\Type\Definition\ObjectType;
 

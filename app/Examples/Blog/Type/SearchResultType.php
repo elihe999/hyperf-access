@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace GraphQL\Examples\Blog\Type;
+namespace App\Examples\Blog\Type;
 
-use GraphQL\Examples\Blog\Data\Story;
-use GraphQL\Examples\Blog\Data\User;
-use GraphQL\Examples\Blog\Types;
+use App\Examples\Blog\Data\Story;
+use App\Examples\Blog\Data\User;
+use App\Examples\Blog\Types;
 use GraphQL\Type\Definition\UnionType;
 
 class SearchResultType extends UnionType

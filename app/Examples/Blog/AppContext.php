@@ -2,7 +2,7 @@
 
 namespace App\Examples\Blog;
 
-use GraphQL\Examples\Blog\Data\User;
+use App\Examples\Blog\Data\User;
 
 /**
  * Instance available in all GraphQL resolvers as 3rd argument.
